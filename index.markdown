@@ -15,7 +15,7 @@ Get-Awesomeness -Time $now
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
+      {{ post }}
     </li>
   {% endfor %}
 </ul>
