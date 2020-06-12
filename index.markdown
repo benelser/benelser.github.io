@@ -15,10 +15,6 @@ Get-Awesomeness -Time $now
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-<<<<<<< HEAD
-=======
-      {{ post }}
->>>>>>> 80d551e74b505733180adb7965374e9e5db3f025
     </li>
   {% endfor %}
 </ul>
