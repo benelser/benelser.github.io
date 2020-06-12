@@ -3,7 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 title: Welcome
-permalink: /home/
 ---
 # This is a home page
 ## I get to write even more markdown here
@@ -11,3 +10,12 @@ to learn more about me take a gander [here](./about)
 ```powershell
 Get-Awesomeness -Time $now
 ```
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
