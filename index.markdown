@@ -5,3 +5,8 @@
 layout: home
 ---
 # This is a home page
+## I get to write even more markdown here
+to learn more about me take a gander [here](./about)
+```powershell
+Get-Awesomeness -Time $now
+```
