@@ -4,6 +4,4 @@
 
 layout: home
 ---
-# This is markdown 
-More markdown
-Please take a look at my [about](./about)
+# This is a home page
